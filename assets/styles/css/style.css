@@ -5,7 +5,7 @@
 }
 
 .navbar {
-	background-color:#fcb73f;
+	background-color:#fcb73f !important;
 }
 
 .nav-link{
@@ -41,15 +41,19 @@ h5 {
 	float: left;
 	display: block;
 	opacity: 1;
-  	display: block;
-  	transition: .5s ease;
-  	backface-visibility: hidden;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-.container:hover .verticals {
-  opacity: 0.3;
-}
 
+.roots:hover {opacity: 0.3;}
+ .mission:hover {opacity: 0.3;}
+ .vision:hover {opacity: 0.3;} 
+ .branding:hover {opacity: 0.3;} 
+
+
+/*
 .hovertext{
   transition: 3s ease;
   opacity: 0;
@@ -59,10 +63,11 @@ h5 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-}
+} */
 
-.container:hover .hovertext {
-  opacity: 1;
+.modal-body {
+  background-color: #fcb73f;
+  text-align: center;
 }
 
 
